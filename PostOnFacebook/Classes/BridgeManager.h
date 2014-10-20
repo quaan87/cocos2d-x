@@ -12,7 +12,7 @@
 #include <iostream>
 #include "cocos2d.h"
 
-class ThirdPartyManager
+class BridgeManager
 {
 public:
     static void postOnFacebook();
