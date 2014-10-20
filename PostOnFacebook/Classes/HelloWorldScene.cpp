@@ -63,7 +63,7 @@ void HelloWorld::clickShareFacebook(cocos2d::Ref *target, TouchEventType type)
         captureScreen();
         
         CallFunc *call = CallFunc::create([=]{
-            ThirdPartyManager::postOnFacebook();
+            BridgeManager::postOnFacebook();
         });
         // wait 0.5s before post
         runAction(Sequence::create(DelayTime::create(0.5f), call, NULL));
