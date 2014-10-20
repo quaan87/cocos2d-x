@@ -16,7 +16,7 @@
 #include "AndroidCalls.h"
 #endif
 
-void ThirdPartyManager::postOnFacebook()
+void BridgeManager::postOnFacebook()
 {
 #if (CC_TARGET_PLATFORM == CC_TARGET_OS_IPHONE)
     ObjCCalls::postOnFacebook();
